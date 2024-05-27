@@ -1,0 +1,169 @@
+/************************************************************/
+/**
+ * Université Sorbonne Paris Nord, Programmation Web
+ * Auteurs                       : Étienne André
+ * Création                      : 2023/12/11
+ * Dernière modification         : 2023/12/11
+ */
+/************************************************************/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+h1 {
+	font-family	: monospace;
+	font-size	: 3em;
+	text-align : center;
+	margin-top:  20px;
+}
+
+.form-group {
+	font-family: monospace;
+	font-size: 2em;
+	text-align : center;
+}
+
+p {
+	font-size: 0.7em;
+}
+  
+
+#boutons {
+	text-align: center;
+	margin-top: 20px;
+}
+
+button{
+	font-family: monospace;
+	font-size: 1.5em;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+	background-size: cover;
+	width: 50px;
+	height: 50px;	
+}
+
+#simulateur{
+	margin-top: 20px;
+	display: block;
+	margin: 0 auto;
+	border: 5px solid #000;
+}
+
+#bouton_pause{
+	font-size: 1em;
+	width: auto;
+	height:auto;
+	padding: 10px 20px;
+	background-color: #f00;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[id^= "bouton_rail"]{
+	font-size: 1.2em;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+#bouton_foret{
+	background-image: url("../images/grass.png");
+	
+}
+
+#bouton_eau{
+	background-image: url("../images/sol.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;	
+}
+
+#bouton_rail_horizontal{
+	background-image: url("../images/rail-horizontal.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;	
+}
+
+#bouton_rail_vertical{
+	background-image: url("../images/rail-vertical.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;	
+}
+
+#bouton_rail_droite_vers_bas{
+	background-image: url("../images/upleft.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;	
+}
+
+#bouton_rail_droite_vers_haut{
+	background-image: url("../images/leftup.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;	
+}
+
+#bouton_rail_bas_vers_droite{
+	background-image: url("../images/rightup.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;	
+}
+
+#bouton_rail_haut_vers_droite{
+	background-image: url("../images/upright.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;	
+}
+#bouton_train_1{
+	background-image: url("../images/locomotive.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	color: #fff;	
+}
+
+#bouton_train_2{
+	background-image: url("../images/wagon.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+}
+
+#bouton_train_4{
+	background-image: url("../images/wagon.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+}
+
+#bouton_train_6{
+	background-image: url("../images/wagon.png");
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	color: #fff;
+}
+
+
+
+
+
+
