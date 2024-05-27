@@ -1,0 +1,52 @@
+<!--
+	Train
+	@author       : Étienne André
+	Created       : 2023/12/11
+	Last modified : 2024/03/28
+-->
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Simulateur de trains</title>
+		<link rel="stylesheet" href="css/train.css">
+	</head>
+
+	<body>
+		<h1>Simulateur de trains</h1>
+
+		<div class="form-group">
+			<h2 for="worlds">Choisissez le monde!</h2>
+			<p id="warning">Rechargez la page pour changer complètement de monde (ou amusez-vous en créant de nouvelles dimensions)</p>
+
+			<select name="worlds" id="worlds">
+				<option value="1">Ancient</option>
+				<option value="2">Sandy</option>
+				<option value="3">Volcan</option>
+			</select>
+		</div>
+
+		<canvas id="simulateur" width="1200" height="600">
+			Simulateur ferroviaire (votre navigateur ne prend pas en charge canvas)
+		</canvas>
+
+		<div id="boutons">
+		<button type="button" id="bouton_foret"></button>
+		<button type="button" id="bouton_eau"></button>
+		<button type="button" id="bouton_rail_horizontal"></button>
+		<button type="button" id="bouton_rail_vertical"></button>
+		<button type="button" id="bouton_rail_droite_vers_haut"><sup></sup></button>
+		<button type="button" id="bouton_rail_haut_vers_droite"><sub></sub></button>
+		<button type="button" id="bouton_rail_droite_vers_bas"><sub></sub></button>
+		<button type="button" id="bouton_rail_bas_vers_droite"><sup></sup></button>
+		<button type="button" id="bouton_train_1">1</button>
+		<button type="button" id="bouton_train_2">2</button>
+		<button type="button" id="bouton_train_4">4</button>
+		<button type="button" id="bouton_train_6">6</button>
+
+		<button type="button" id="bouton_pause">Pause</button>
+		</div>
+
+		<script src="../train/js/train.js"></script>
+	</body>
+</html>
